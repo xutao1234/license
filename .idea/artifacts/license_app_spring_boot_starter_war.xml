@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="license-app-spring-boot-starter:war">
+    <output-path>$PROJECT_DIR$/license-app/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>license-app-spring-boot-starter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="license-app-spring-boot-starter.war">
+      <element id="artifact" artifact-name="license-app-spring-boot-starter:war exploded" />
+    </root>
+  </artifact>
+</component>
